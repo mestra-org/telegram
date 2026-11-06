@@ -14,3 +14,7 @@
 /mautrix-telegram
 /mautrix-telegramgo
 /start
+
+# The production inventory (real host, user and port) stays out of this
+# public fork; CI writes it from secrets, see .github/workflows/release.yml.
+/deploy/ansible/inventory.ini
